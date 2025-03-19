@@ -1,0 +1,44 @@
+body{
+  background-image:url("../img/bg-locker.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.signup-container,.login-container{
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 0 10% 0 10% ;
+  padding: 5%;
+  border-color: white;
+}
+.signup-form,.login-form{
+  margin: 3%;
+}
+#btn{
+  background-image: url("../img/btn-img.jpg");
+  margin: 2%;
+  width: 30%;
+  height: 4vh;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#white{
+  color: white;
+}
+#user>img{
+  width: 20%;
+}
+#inp{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  padding: 8px;
+  outline: none;
+}
+#inp:focus{
+  border-bottom: 2px solid #fbfbfc;
+}

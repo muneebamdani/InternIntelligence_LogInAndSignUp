@@ -14,7 +14,7 @@ function Login() {
            await signInWithEmailAndPassword(auth,email,password)
             alert("Login Successfully")
         }catch(error){
-            alert(error); 
+            alert("Ensure that you have signed up first"); 
         }
     }
 

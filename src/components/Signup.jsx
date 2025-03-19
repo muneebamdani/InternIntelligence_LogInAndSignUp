@@ -18,7 +18,7 @@ function Signup(){
             navigate("/login");
             
         }catch(error){
-            alert(error);
+            alert("Provide correct info");
             
         }
     }
